@@ -40,7 +40,7 @@ public class StackSortByStack {
         }
     }
 
-    // 一种错误写法，还不知道为什么
+    // 一种错误写法：cur中暂存的值会丢失
     private static void wrongSortByStack(Stack<Integer> stack){
         Stack<Integer> helpStack = new Stack<>();
         while(!stack.isEmpty()){
@@ -48,7 +48,7 @@ public class StackSortByStack {
             if (helpStack.isEmpty() || cur <= helpStack.peek()){
                 helpStack.push(cur);
             }else {
-                while (cur > helpStack.peek()){
+                while (!helpStack.isEmpty() && cur > helpStack.peek()){
                     stack.push(helpStack.pop());
                 }
             }
