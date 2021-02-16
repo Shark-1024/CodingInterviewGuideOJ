@@ -1,2 +1,7 @@
 # CodingInterviewGuideOJ
 对应牛客网OJ：https://www.nowcoder.com/ta/programmer-code-interview-guide
+
+- 入门-栈和队列
+    1. 设计带getMin功能的栈
+    2. 猫狗队列
+    3. 用栈给另一个栈排序
