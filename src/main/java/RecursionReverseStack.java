@@ -1,9 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.Stack;
-import java.util.stream.IntStream;
 
 /**
  * 仅用递归函数和栈操作逆序一个栈
