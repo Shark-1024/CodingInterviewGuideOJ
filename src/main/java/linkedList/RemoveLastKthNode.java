@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
+ * 移除倒数第 K 个节点
  * @author hanlin.zhou
  * @date 2021/2/18 16:41
  */
