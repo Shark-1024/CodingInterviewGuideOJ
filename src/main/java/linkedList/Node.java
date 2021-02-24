@@ -39,4 +39,21 @@ public class Node {
         }
         return head.next;
     }
+
+    /**
+     * 构建长度为 len 的环形单链表
+     * 编号为 1 -- len
+     * 返回 编号为 1 的节点
+     */
+    public static Node buildCycleLinkedList(int len){
+        Node head = new Node(-1);
+        Node cur = head;
+        for (int i=1;i<=len;i++) {
+            cur.next = new Node(i);
+            cur = cur.next;
+        }
+        cur.next = head.next;
+        return head.next;
+    }
+
 }
