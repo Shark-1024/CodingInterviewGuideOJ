@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 /**
+ * 判断链表是否为回文结构
  * @author hanlin.zhou
  * @date 2021/2/26 0:03
  */
