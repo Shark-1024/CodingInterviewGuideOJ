@@ -17,7 +17,7 @@ public class GetMaxWindow {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String[] readLine = bufferedReader.readLine().trim().split(" ");
         String[] readLine1 = bufferedReader.readLine().trim().split(" ");
-        int arrLength = Integer.parseInt(readLine[0]);
+        //int arrLength = Integer.parseInt(readLine[0]);
         int windowSize = Integer.parseInt(readLine[1]);
         Integer[] nums = Arrays.stream(readLine1).map(Integer::parseInt).toArray(Integer[]::new);
         int[] result = getMaxWindow(nums, windowSize);

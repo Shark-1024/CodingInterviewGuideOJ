@@ -17,7 +17,7 @@ public class MonotonicStack {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int arrLength = Integer.parseInt(bufferedReader.readLine());
+        //int arrLength = Integer.parseInt(bufferedReader.readLine());
         String[] readLine = bufferedReader.readLine().trim().split(" ");
         Integer[] nums = Arrays.stream(readLine).map(Integer::parseInt).toArray(Integer[]::new);
         bufferedReader.close();
